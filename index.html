@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=space-grotesk@300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Start Here -->
+    <section class="page-width">
+      <div class="navigation-wrapper">
+        <div class="logo-wrapper">
+          <a href="/">
+            <img src="./img/Logo.png" alt="" class="logo hidden sm:block" />
+            <img
+              class="sm:hidden mobile-logo"
+              src="./img/Mobile-logo.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="menu-wrapper">
+          <a href="menu-item">About Us</a>
+          <a href="menu-item">Services</a>
+          <a href="menu-item">Use Cases</a>
+          <a href="menu-item">Pricing</a>
+          <a href="menu-item">Blog</a>
+        </div>
+        <div class="buttons-wrapper">
+          <button class="nav-button hover:bg-[#b9ff66]">Request a quote</button>
+        </div>
+
+        <!-- Mobile Navigation Start Here -->
+
+        <i
+          id="mobile-menu-button"
+          class="ri-menu-3-fill sm:hidden hover:text-[#b9ff66]"
+        ></i>
+        <i id="mobile-menu-close-button" class="ri-close-line"></i>
+      </div>
+
+      <div class="mobile-menu-wrapper">
+        <a href="#" class="mobile-menu-item">About Us</a>
+        <a href="#" class="mobile-menu-item">Services</a>
+        <a href="#" class="mobile-menu-item">Use Cases</a>
+        <a href="#" class="mobile-menu-item">Pricing</a>
+        <a href="#" class="mobile-menu-item">Blog</a>
+        <div class="mobile-buttons-wrapper">
+          <button class="mobile-nav-button hover:bg-[#b9ff66] hover:text-black">
+            Request a quote
+          </button>
+        </div>
+      </div>
+      <!-- Mobile Navigation End Here -->
+    </section>
+    <!-- Navigation End Here -->
+
+    <!-- Hero Section Start Here -->
+    <section class="page-width">
+      <div
+        class="hero-content-row flex flex-col md:flex-row justify-between py-[20px] sm:py-[70px] gap-[30px]"
+      >
+        <div
+          class="hero-content-right-col md:w-1/2 px-[30px] flex flex-col items-start gap-[35px]"
+        >
+          <h1
+            class="text-[48px] sm:text-[60px] font-semibold leading-tight text-black"
+          >
+            Navigating the digital landscape for success
+          </h1>
+
+          <p class="text-xl">
+            Our digital marketing agency helps businesses grow and succeed
+            online through a range of services including SEO, PPC, social media
+            marketing, and content creation.
+          </p>
+
+          <button
+            class="text-white font-normal w-full md:w-auto bg-black px-[25px] py-[10px] rounded-xl text-xl"
+          >
+            Book a consultation
+          </button>
+        </div>
+        <div class="hero-content-left-col md:w-1/2 px-[30px]">
+          <img class="w-full h-full" src="./img/Hero-Illustration.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End Here -->
+
+    <!-- Logo Section Start Here -->
+    <section class="page-width">
+      <div
+        class="logo-section-wrapper py-[30px] sm:py-[60px] px-[20px] flex justify-between flex-row gap-[20px] flex-wrap w-full"
+      >
+        <img
+          class="w-[120px]"
+          src="./img/Company logo.svg"
+          alt="Company Logo"
+        />
+        <img
+          class="w-[120px]"
+          src="./img/Company logo (1).svg"
+          alt="Company Logo"
+        />
+        <img
+          class="w-[120px]"
+          src="./img/Company logo (2).svg"
+          alt="Company Logo"
+        />
+        <img
+          class="w-[120px]"
+          src="./img/Company logo (3).svg"
+          alt="Company Logo"
+        />
+        <img
+          class="w-[120px]"
+          src="./img/Company logo (4).svg"
+          alt="Company Logo"
+        />
+        <img
+          class="w-[120px]"
+          src="./img/Company logo.png"
+          alt="Company Logo"
+        />
+      </div>
+    </section>
+    <!-- Logo Section End Here -->
+
+    <!-- Services Section Start Here -->
+    <section class="page-width">
+      <div
+        class="sevices-content-wrapper px-[20px] py-[30px] sm:py-[60px] w-full"
+      >
+        <!-- Sevices Header Start Here -->
+        <div
+          class="services-header px-[20px] pb-[20px] flex flex-col items-center gap-[20px] sm:flex-row"
+        >
+          <!-- Services Section Start Here -->
+          <h2
+            class="sevices-title bg-[#b9ff66] w-auto text-2xl sm:text-3xl font-bold px-[10px] rounded-lg"
+          >
+            Sevices
+          </h2>
+
+          <p
+            class="sevices-desc text-center text-md sm:text-xl text-black w-full sm:w-[600px] flex-shrink-0"
+          >
+            At our digital marketing agency, we offer a range of services to
+            help businesses grow and succeed online. These services include:
+          </p>
+        </div>
+        <!-- Sevices Header End Here -->
+
+        <!-- Sevices Row Start Here -->
+        <div
+          class="services-row w-full flex flex-col gap-[20px] sm:gap-[40px] sm:flex-row mb-[20px]"
+        >
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-gray-100 md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#b9ff66] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Search engine
+              </h2>
+
+              <h2
+                class="bg-[#b9ff66] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                optimization
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-1.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-black hover:bg-[#B9FF66] hover:text-black text-white py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-[#b9ff66] md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Search engine
+              </h2>
+
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                optimization
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-2.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-black hover:bg-[#B9FF66] hover:text-black text-white py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+        </div>
+        <!-- Sevices Row End Here -->
+
+        <!-- Sevices Row Start Here -->
+        <div
+          class="services-row w-full flex flex-col gap-[20px] sm:gap-[40px] sm:flex-row mb-[20px]"
+        >
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-black md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Social Media
+              </h2>
+
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Marketing
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-3.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-white hover:bg-[#B9FF66] hover:text-black text-black py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden text-white sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-[#b9ff66] md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Email
+              </h2>
+
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Marketing
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-4.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-black hover:bg-[#B9FF66] hover:text-black text-white py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+        </div>
+        <!-- Sevices Row End Here -->
+
+        <!-- Sevices Row Start Here -->
+        <div
+          class="services-row w-full flex flex-col gap-[20px] sm:gap-[40px] sm:flex-row mb-[20px]"
+        >
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-[#B9FF66] md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Content
+              </h2>
+
+              <h2
+                class="bg-[#ffff] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Creation
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-5.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-black hover:bg-[#B9FF66] hover:text-black text-white py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden text-black sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+
+          <!-- Single Sevice Start Here -->
+          <div
+            class="sevice relative flex items-start justify-between border-2 border-black p-[30px] w-full rounded-3xl bg-black md:w-1/2"
+          >
+            <div class="seives-title">
+              <h2
+                class="bg-[#B9FF66] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Analytics and
+              </h2>
+
+              <h2
+                class="bg-[#B9FF66] w-auto text-xl sm:text-3xl font-bold px-[10px] rounded-lg inline-block"
+              >
+                Tracking
+              </h2>
+            </div>
+
+            <div class="sevice-image-wrapper">
+              <img
+                class="w-full h-full object-cover"
+                src="./img/Sevices-img-6.png"
+                alt="Sevices Image"
+              />
+            </div>
+
+            <div
+              class="service-button-wrapper absolute bottom-[20px] left-[20px] w-auto"
+            >
+              <a class="cursor-pointer" href="#">
+                <i
+                  class="ri-arrow-right-up-line bg-white hover:bg-[#B9FF66] hover:text-black text-black py-[6px] px-[10px] rounded-full text-2xl inline-block"
+                ></i>
+                <span
+                  class="sevice-btn-text  text-xl hidden text-white sm:inline-block font-semibold"
+                  >Learn more</span
+                >
+              </a>
+            </div>
+          </div>
+          <!-- Single Sevice End Here -->
+        </div>
+        <!-- Sevices Row End Here -->
+      </div>
+    </section>
+    <!-- Services Section End Here -->
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
